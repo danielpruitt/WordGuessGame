@@ -8,6 +8,7 @@ window.onload = function() {
     var results = document.getElementById("results");
     var winCounter = document.getElementById("win-counter");
     var lossCounter = document.getElementById("loss-counter");
+    var img = document.getElementById("#image");
 
     //Arrays
     
@@ -129,55 +130,44 @@ window.onload = function() {
         console.log(wins);
         winCounter.textContent = wins;
         switch (randWord){
-            case('luke') :
-                document.getElementById("#switchCase");
-                img.src ="assets/images/luke.jpg";
+            case("luke") :
+                img.src = "assets/images/luke.jpg";
                 break;
-            case('anakin') :
+            case("anakin") :
                 img.src = "assets/images/anakin.jpg";
                 break;
-            case('r2d2') :
-                document.getElementById("#switchCase");
+            case("r2d2") :
                 img.src = "assets/images/artoo.jpg";
                 break;
-            case('chewbacca') :
-                document.getElementById("#switchCase");
+            case("chewbacca") :
                 img.src = "assets/images/chewbacca.jpg";
                 break;
-            case('darthmaul') :
-                document.getElementById("#switchCase");
+            case("darthmaul") :
                 img.src = "assets/images/darthmaul.jpg";
                 break;
-            case('darthvader') :
-                document.getElementById("#switchCase");
+            case("darthvader") :
                 img.src = "assets/images/darthvader.jpg";
                 break;
-            case('hansolo') :
-                document.getElementById("#switchCase");
+            case("hansolo") :
                 img.src = "assets/images/hansolo.jpg";
                 break;
-            case('lando') :
-                document.getElementById("#switchCase");
+            case("lando") :
                 img.src = "assets/images/lando.jpg";
                 break;
-            case('leia') :
-                document.getElementById("#switchCase");
+            case("leia") :
                 img.src = "assets/images/leia.jpg";
                 break;
-            case('obiwankenobi') :
-                document.getElementById("#switchCase");
+            case("obiwankenobi") :
                 img.src = "assets/images/obiwan.jpg";
                 break;
-            case('c3p0') :
-                document.getElementById("#switchCase");
+            case("c3p0") :
                 img.src = "assets/images/threepio.jpg";
                 break;
-            case('yoda') :
-                document.getElementById("#switchCase");
+            case("yoda") :
                 img.src = "assets/images/yoda.jpg";
                 break;
             
-        }
+        };
         
     };
 
