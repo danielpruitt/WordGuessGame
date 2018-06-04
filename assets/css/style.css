@@ -1,9 +1,12 @@
 body {
-    background: url(../images/falconview.png);
+    background: url(../images/star-wars-wallpaper-desktop-movies-entertainment-death.jpg);
+    background-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     
 }
 
-.smokey {
-    background:whitesmoke;
+img{
+    width:65%;
+    height:65%;
 }
-
