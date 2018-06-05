@@ -9,6 +9,7 @@ window.onload = function() {
     var winCounter = document.getElementById("win-counter");
     var lossCounter = document.getElementById("loss-counter");
     var img = document.getElementById("image");
+    var song = document.getElementById("song");
 
     //Arrays
     
@@ -42,6 +43,7 @@ window.onload = function() {
 
     function config() {
         gamePlay()
+        song.pause()
     }
 
     livesCounter.textContent = allowedGuesses;
@@ -132,54 +134,88 @@ window.onload = function() {
         switch (randWord){
             case("luke") :
                 img.src = "assets/images/luke.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("anakin") :
                 img.src = "assets/images/anakin.jpg";
+                song.src = "assets/songs/imperialMarch.mp3";
+                song.play();
                 break;
             case("r2d2") :
                 img.src = "assets/images/artoo.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("chewbacca") :
                 img.src = "assets/images/chewbacca.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("darthmaul") :
                 img.src = "assets/images/darthmaul.jpg";
+                song.src = "assets/songs/imperialmarch.mp3";
+                song.play();
                 break;
             case("darthvader") :
                 img.src = "assets/images/darthvader.jpg";
+                song.src = "assets/songs/imperialmarch.mp3";
+                song.play();
                 break;
             case("hansolo") :
                 img.src = "assets/images/hansolo.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("lando") :
                 img.src = "assets/images/lando.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("leia") :
                 img.src = "assets/images/leia.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("obiwankenobi") :
                 img.src = "assets/images/obiwan.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("c3p0") :
                 img.src = "assets/images/threepio.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("yoda") :
                 img.src = "assets/images/yoda.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("rey") :
                 img.src = "assets/images/rey.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("finn") :
                 img.src = "assets/images/finn.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("phasma") :
                 img.src = "assets/images/phasma.jpg";
+                song.src = "assets/songs/imperialmarch.mp3";
+                song.play();
                 break;
             case("poe") :
                 img.src = "assets/images/poe.jpg";
+                song.src = "assets/songs/jediTheme.mp3";
+                song.play()
                 break;
             case("kyloren") :
                 img.src = "assets/images/kyloren.jpg";
+                song.src = "assets/songs/imperialmarch.mp3";
+                song.play();
                 break;
             
         };
