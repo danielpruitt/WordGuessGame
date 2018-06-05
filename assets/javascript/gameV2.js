@@ -8,7 +8,7 @@ window.onload = function() {
     var results = document.getElementById("results");
     var winCounter = document.getElementById("win-counter");
     var lossCounter = document.getElementById("loss-counter");
-    var img = document.getElementById("#image");
+    var img = document.getElementById("image");
 
     //Arrays
     
@@ -53,7 +53,7 @@ window.onload = function() {
 
     function gamePlay(){
         availInput = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z","1","2","3","4","5","6","7","8","9","0", " "];
-        wordBank = ["luke","leia","chewbacca","hansolo","darthvader","anakin", "obiwankenobi", "yoda", "lando", "darthmaul","r2d2","c3p0"];
+        wordBank = ["luke","leia","chewbacca","hansolo","darthvader","anakin", "obiwankenobi", "yoda", "lando", "darthmaul","r2d2","c3p0", "rey","finn","phasma","poe","kyloren"];
         userGuesses = [];
         wrongGuesses = [];
         placeHolders = [];
@@ -165,6 +165,21 @@ window.onload = function() {
                 break;
             case("yoda") :
                 img.src = "assets/images/yoda.jpg";
+                break;
+            case("rey") :
+                img.src = "assets/images/rey.jpg";
+                break;
+            case("finn") :
+                img.src = "assets/images/finn.jpg";
+                break;
+            case("phasma") :
+                img.src = "assets/images/phasma.jpg";
+                break;
+            case("poe") :
+                img.src = "assets/images/poe.jpg";
+                break;
+            case("kyloren") :
+                img.src = "assets/images/kyloren.jpg";
                 break;
             
         };
